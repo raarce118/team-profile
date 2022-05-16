@@ -4,12 +4,12 @@ jest.mock('../lib/Employee.js');
 
 // copied and edited from module 10 tests.js
 test('creates an Employee object', () => {
-  const Employee = new Employee('Rich', 8, 'r.arce118@hotmail.com', 'manager');
+  const Employee = new Employee('Rich', 8, 'r.arce118@hotmail.com',);
 
   expect(Employee.name).toEqual(expect.any(String));
   expect(Employee.id).toEqual(expect.any(Number));
   expect(Employee.email).toEqual(expect.any(String));
-  expect(Employee.Role).toEqual(expect.any(String));
+
 
 });
 
