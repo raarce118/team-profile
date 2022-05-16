@@ -74,3 +74,43 @@ const generateManager = function(Manager) {
      `;
  
    };
+
+   
+
+   const genPage = function (empCards) {
+
+     return`
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Team</title>
+</head>
+<body>
+    <header>
+       <div>
+           <h1>Our Team</h1>
+       </div>
+    </header>  
+
+
+      <main>
+           <div class="container"
+                <div class ="row justify-content-center">
+                ${empCards}
+                </div
+           </div>
+      </main>
+
+
+</body>
+</html>
+
+
+`;
+};
+
+module.exports = pageTemplate;

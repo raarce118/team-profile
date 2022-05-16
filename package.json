@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/raarce118/team-profile#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "inquirer": "^8.2.4",
     "jest": "^28.1.0"
   }
