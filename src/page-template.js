@@ -50,7 +50,7 @@ const generateManager = function(Manager) {
          <div>
          <p>ID:${Intern.id}</p>
          <p>Email:<a href"email:${Intern.email}"${Intern.email}</a></p>
-         <p>School:${intern.school}</p>
+         <p>School:${Intern.school}</p>
          </div>
     </div>
     `;
